@@ -16,16 +16,16 @@ body {
   max-height: 520px;
   background: #f5f3f4;
 }
-.nav{
+.nav {
   display: flex;
 }
-.nav-list{
+.nav-list {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.nav-list li{
+.nav-list li {
   margin-left: 32px;
 }
 .nav-list li a {
@@ -33,17 +33,17 @@ body {
   list-style: none;
   color: #3e3e3e;
 }
-.left-buttons{
+.left-buttons {
   display: flex;
   justify-content: left;
-  align-items: center; 
-  padding: 5px;
+  align-items: center;
+  padding: 50px;
 }
 .right-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 50px;
 }
 .main-button {
   background: white;
@@ -92,7 +92,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .content .logo {
@@ -195,4 +194,67 @@ body {
   font-size: 0.8125rem;
   color: #818181;
   margin: 0 20px;
+}
+.carousel-melhores-mercados {
+  display: flex;
+  justify-content: center;
+}
+.formas {
+  display: flex;
+  justify-content: center;
+}
+.retangulo-restaurante {
+  margin-right: 10px;
+  height: 214px;
+  width: 405px;
+  background: #ea1d2c;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.retangulo-restaurante:hover {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  transform:scale(1.05,1.05);
+  -webkit-transform:scale(1.05,1.05);
+  -moz-transform:scale(1.05,1.05);
+  transition: 0.3s;
+}
+.retangulo-mercado {
+  margin-left: 10px;
+  height: 214px;
+  width: 405px; 
+  background: #b6d048;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.retangulo-mercado:hover {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  transform:scale(1.05,1.05);
+  -webkit-transform:scale(1.05,1.05);
+  -moz-transform:scale(1.05,1.05);
+  transition: 0.3s;
+}
+button {
+  border: none;
+  border-radius: 30px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.ver-opcoes {
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.imagem-retangulo {
+  width: 50%;
 }
