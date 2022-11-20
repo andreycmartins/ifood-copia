@@ -186,6 +186,7 @@ body {
   border-top: 1px solid #dcdcdc;
   display: flex;
   padding: 20px 0;
+  text-decoration: none;
 }
 .footer img {
   width: 50px;
@@ -198,6 +199,7 @@ body {
 .carousel-melhores-mercados {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .formas {
   display: flex;
@@ -218,15 +220,16 @@ body {
   text-decoration: none;
   list-style: none;
   color: white;
-  transform:scale(1.05,1.05);
-  -webkit-transform:scale(1.05,1.05);
-  -moz-transform:scale(1.05,1.05);
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
   transition: 0.3s;
+  cursor: pointer;
 }
 .retangulo-mercado {
   margin-left: 10px;
   height: 214px;
-  width: 405px; 
+  width: 405px;
   background: #b6d048;
   border-radius: 25px;
   text-decoration: none;
@@ -238,10 +241,11 @@ body {
   text-decoration: none;
   list-style: none;
   color: white;
-  transform:scale(1.05,1.05);
-  -webkit-transform:scale(1.05,1.05);
-  -moz-transform:scale(1.05,1.05);
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
   transition: 0.3s;
+  cursor: pointer;
 }
 button {
   border: none;
@@ -256,5 +260,34 @@ button {
   filter: alpha(opacity=90);
 }
 .imagem-retangulo {
-  width: 50%;
+  width: 220px;
+  height: 138px;
+}
+.slide1 {
+  padding-top: 10px;
+}
+.slide1:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.slide2 {
+  border: 1px solid lightgray;
+  margin: 5px;
+  border-radius: 10px;
+}
+.slide2:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer-item {
+  text-decoration: none;
+  color: #3e3e3e;
+  margin-left: 1vh;
+  margin-right: 1vh;
 }
