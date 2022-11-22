@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  position: relative;
 }
 body {
   height: 100vh;
@@ -18,6 +19,12 @@ body {
 }
 .nav {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
 }
 .nav-list {
   list-style: none;
@@ -38,6 +45,7 @@ body {
   justify-content: left;
   align-items: center;
   padding: 50px;
+  font-weight: bold;
 }
 .right-buttons {
   display: flex;
@@ -291,6 +299,28 @@ button {
   margin-left: 1vh;
   margin-right: 1vh;
 }
+.big-images{
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 991px) {
-  
+  .left-buttons {
+    display: grid;
+    gap: 40px;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .retangulo-mercado {
+    margin-top: 150px;
+  }
+  .retangulo-restaurante {
+    margin-top: 150px;
+  }
+  .bg {
+    text-align: center;
+  }
+}
+
+@media (max-width: 562) {
 }
